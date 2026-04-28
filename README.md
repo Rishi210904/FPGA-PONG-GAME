@@ -79,9 +79,16 @@ CLK100MHZ ──► clk_wiz_0 ──► 25 MHz ──► vga_controller
                                        ▲                 ▲
                                   spi_adxl362       seg7_display
 ```
+## 👥 Team — Shiv Nadar Institution of Eminence
 
-| Module | File | Description |
+| Member | Role | GitHub |
 |---|---|---|
+| **Rishi Chaudhary** | Game FSM & Core Engine | [@Rishi210904](https://github.com/Rishi210904) |
+| Pranav Talwar | System Integration & Testing | [@prnv11](https://github.com/prnv11) |
+| Kush Bansal | VGA Display Subsystem | [@Kush2605](https://github.com/Kush2605) |
+| Nischal Pandey | SPI Accelerometer Interface | [@Neeshchal](https://github.com/Neeshchal) |
+
+|---|---|---|    
 | `game_fsm` | `top.v` | 6-state FSM: INIT → PLAY → SCORE → MISS → GAMEOVER → RESTART |
 | `vga_controller` | `b.v` | VGA sync generation, object rendering, pixel-font text overlay |
 | `spi_adxl362` | `c.v` | SPI master for ADXL362 — init, continuous X/Y reads, 12-bit output |
